@@ -5,8 +5,7 @@ from Bio import SeqIO
 import pandas as pd 
 from Bio import Entrez
 import re
-from collections 
-import Counter
+from collections import Counter
 
 def download_pubmed(keyword): 
    

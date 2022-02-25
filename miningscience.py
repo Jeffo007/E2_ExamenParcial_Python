@@ -19,7 +19,7 @@ def download_pubmed(keyword):
     
 def mining_pubs(tipo):
    
-    with open("E2_ExamenParcial_Python/pubmed-ferrooxida.txt", errors="ignore") as f: 
+    with open("./pubmed-EcuadorGen-set.txt", errors="ignore") as f: 
         texto = f.read() 
     if tipo == "DP":
         PMID = re.findall("PMID- (\d*)", texto) 
